@@ -1,5 +1,5 @@
 module.exports = function(bh) {
-    bh.match('logo-link', function(ctx, json) {
+    bh.match('navbar', function(ctx, json) {
     });
 };
 

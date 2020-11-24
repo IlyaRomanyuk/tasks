@@ -5,9 +5,8 @@ module.exports = {
     require('./common/header.bemjson'),
     {block: 'navbar', content: [
         {block: 'logo', content: [
-            {block: 'logo-link'},
+            {elem: 'link'},
           ]},
-        {block: 'menu'},
       ]},
     require('./common/footer.bemjson'),
   ],

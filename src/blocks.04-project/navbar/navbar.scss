@@ -1,21 +1,6 @@
 .navbar {
   background: #0062cc;
-  padding: 7px 14px;
+  padding: 17px 14px;
 
-  &__link {
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 14px;
-    cursor: pointer;
-
-    transition: all .3s ease-in;
-    text-decoration: none;
-
-    &:hover {
-      transition: all .3s ease-in;
-      color: #ccc;
-
-      text-decoration: none;
-    }
-  }
+  display: flex;
 }
