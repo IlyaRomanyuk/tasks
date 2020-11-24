@@ -12,11 +12,11 @@ module.exports = {
           ]},
       ]},
 
-    {block: 'container', content: [
+    {block: 'wrapper', content: [
         {block: 'content', content: [
             {elem: 'title', content: 'About us'},
             {elem: 'text', content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-            [...new Array(3).map((value, index) => ({elem: 'item', content: `itemCard ${index}`}))],
+            {elem: 'inner', content: [...new Array(3)].map((value, index) => ({elem: 'item', content: `itemCard ${index}`}))},
           ]},
       ]},
     require('./common/footer.bemjson'),
