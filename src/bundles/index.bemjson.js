@@ -3,7 +3,7 @@ module.exports = {
     title: 'Пустая',
     content: [
         require('./common/header.bemjson'),
-        {block: 'test', content: 'кнопка'},
+        {block: 'navbar', content: 'кнопка'},
         require('./common/footer.bemjson'),
     ],
 };
