@@ -1,0 +1,15 @@
+.wrapp__block {
+  width: 100px;
+  height: 100px;
+
+  background-color: #005cbf;
+  text-align: center;
+  color: #e6e6e6;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

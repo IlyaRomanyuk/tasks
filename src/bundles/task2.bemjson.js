@@ -1,5 +1,9 @@
 module.exports = {
   block: 'page',
   title: 'task2',
-  content: [],
+  content: [
+    {block: 'wrapp', content: [
+        {elem: 'block', content: ('block')},
+      ]},
+  ],
 };
