@@ -8,7 +8,7 @@ module.exports = {
             {elem: 'link'},
           ]},
         {block: 'menu', content: [
-            [...new Array(4)].map((value, index) => ({elem: 'link', content: `link ${index}`})),
+            [...new Array(4)].map((value, index) => ({elem: 'link', content: `link ${index + 1}`})),
           ]},
       ]},
 
@@ -16,7 +16,12 @@ module.exports = {
         {block: 'content', content: [
             {elem: 'title', content: 'About us'},
             {elem: 'text', content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-            {elem: 'inner', content: [...new Array(3)].map((value, index) => ({elem: 'item', content: `itemCard ${index}`}))},
+            {elem: 'inner', content: [...new Array(4)].map((value, index) => {
+                return {elem: 'item', content: [
+                    {elem: 'card-text', content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.'},
+                    {elem: 'card-btn', content: `show ${index + 1}`},
+                  ]};
+              })},
           ]},
       ]},
     require('./common/footer.bemjson'),
