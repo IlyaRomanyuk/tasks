@@ -1,10 +1,16 @@
+input {
+  padding: 0;
+  margin: 0;
+}
+
 .search__input {
-  margin-top: 15px;
   outline: none;
 
   border-radius: 5px;
   border: none;
-  padding: 10px;
+  height: 50px;
+  width: 250px;
+  padding: 0 10px;
 
   background-color: #333;
   color: #fff;
@@ -12,7 +18,8 @@
   transition: all .3s ease-in;
 
   &_disabled {
+    width: 0px;
+    padding: 0px 0px;
     transition: all .3s ease-in;
-    transform: translateY(-1000%);
   }
 }

@@ -4,7 +4,7 @@ module.exports = {
   content: [
     {block: 'search', content: [
         {elem: 'content', content: [
-            {elem: 'button'},
+            {elem: 'button', elemMods: {active: true}},
             {elem: 'input', elemMods: {disabled: true}},
           ]},
       ]},
