@@ -3,8 +3,10 @@ module.exports = {
   title: 'Input',
   content: [
     {block: 'unicalInput', content: [
-        {elem: 'element'},
-        {elem: 'label', content: 'Your name'},
+        {elem: 'content', content: [
+            {elem: 'element'},
+            {elem: 'label', content: 'Your name'},
+          ]},
       ]},
   ],
 };

@@ -1,7 +1,15 @@
 .unicalInput__label {
+  padding: 0;
+  margin: 0;
+
   color: #333;
   font-size: 14px;
 
   position: absolute;
   top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+
+  /*Отмена события клика по элементу*/
+  pointer-events: none;
 }
