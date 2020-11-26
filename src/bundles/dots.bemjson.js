@@ -8,7 +8,7 @@ module.exports = {
               return {
                 elem: 'item', content: [
                   {elem: 'image'},
-                  {elem: 'title', content: 'это название какого-то ещё нового товара'},
+                  {elem: 'title', content: 'это название какого-то тут нового товара'},
                   {elem: 'button', content: ('Add +')},
                 ],
               };
