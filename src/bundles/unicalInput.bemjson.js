@@ -5,7 +5,7 @@ module.exports = {
     {block: 'unicalInput', content: [
         {elem: 'content', content: [
             {elem: 'element'},
-            {elem: 'label', content: 'Your name'},
+            {elem: 'label', content: 'Your name', elemMods: {disabled: true}},
           ]},
       ]},
   ],

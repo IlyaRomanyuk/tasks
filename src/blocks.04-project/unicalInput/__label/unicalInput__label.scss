@@ -3,13 +3,20 @@
   margin: 0;
 
   color: #333;
-  font-size: 14px;
+  font-size: 10px;
 
   position: absolute;
-  top: 50%;
+  top: -20px;
   left: 0;
   transform: translateY(-50%);
+  transition: all .1s ease-in;
 
   /*Отмена события клика по элементу*/
   pointer-events: none;
+
+  &_disabled {
+    top: 50%;
+    font-size: 14px;
+    transition: all .1s ease-in;
+  }
 }
