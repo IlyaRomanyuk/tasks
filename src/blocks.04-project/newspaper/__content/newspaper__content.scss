@@ -1,0 +1,16 @@
+.newspaper__content {
+  max-width: 1140px;
+  width: 100%;
+
+  margin: 20px auto 0;
+
+  -webkit-columns: 200px 4;
+  -moz-columns: 200px 4;
+  columns: 200px 4;
+  -webkit-column-gap: 30px;
+  -moz-column-gap: 30px;
+  column-gap: 30px;
+  -webkit-column-rule: 1px solid #ccc;
+  -moz-column-rule: 1px solid #ccc;
+  column-rule: 1px solid #ccc;
+}
