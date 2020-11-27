@@ -1,0 +1,18 @@
+.card__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: 68% 67%;
+  transform: translate(-50%, -50%) rotate(45deg);
+
+  height: 35px;
+  width: 146px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-transform: uppercase;
+  color: #fff;
+  background: linear-gradient(360deg, rgba(115,6,6,1) 0%, rgba(255,0,0,1) 100%, rgba(0,212,255,1) 100%);
+}

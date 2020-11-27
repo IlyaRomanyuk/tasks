@@ -1,8 +1,11 @@
 module.exports = {
   block: 'page',
-  title: 'Card',
+  title: 'card',
   content: [
     {block: 'card', content: [
+        {elem: 'block', content: [
+            {elem: 'text', content: ('sale')},
+          ]},
       ]},
   ],
 };
