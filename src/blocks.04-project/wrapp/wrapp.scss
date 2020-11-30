@@ -1,8 +1,13 @@
 .wrapp {
   background-color: #e6e6e6;
-
   height: 100vh;
   width: 100%;
 
-  position: relative;
+  //position: relative;
+
+  // Второй способ
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
