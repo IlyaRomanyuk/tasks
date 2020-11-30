@@ -36,6 +36,7 @@
     box-sizing: border-box;
   }
 }
+
 @each $key, $value in $icons {
   .fi_icon_#{$key} {
     &:before{
