@@ -30,11 +30,27 @@
 }
 
 .fi {
+  position: relative;
+
+  //&::after {
+  //  content: '';
+  //
+  //  position: absolute;
+  //  top: 0px;
+  //  left: 50%;
+  //  z-index: 3;
+  //
+  //  background-color: #000;
+  //
+  //  width: 16px;
+  //  height: 16px;
+  //}
+
   cursor: pointer;
-  transition: all .2s ease-in;
+  transition: all .1s ease-in;
 
   &:hover {
     color: yellow;
-    transition: all .2s ease-in;
+    transition: all .1s ease-in;
   }
 }

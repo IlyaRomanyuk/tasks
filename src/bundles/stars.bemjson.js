@@ -18,13 +18,13 @@ module.exports = {
           title: 'SAMSUNG Galaxy A20 32Gb',
         },
       ].map((value, index) => {
-        return {elem: 'item', content: [
+        return {elem: 'item', attrs: {'id': index + 1}, content: [
             {elem: 'img', attrs: {src: `http://placehold.it/${value.url}`}},
             {elem: 'title', content: value.title},
             {elem: 'inner', content: [
               [...new Array(5)].map((value, i) => {
                 return {block: 'star', content: [
-                    {block: 'fi', attrs: {'id': index + 1, 'data-note': i + 1}, mods: {icon: 'star'}},
+                    {block: 'fi', attrs: {'data-id': index + 1, 'data-note': ++i}, mods: {icon: 'myStar'}},
                   ]};
               }),
               ]},

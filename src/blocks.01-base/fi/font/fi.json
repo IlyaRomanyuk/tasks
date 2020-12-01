@@ -1,4 +1,6 @@
 {
     "close": "\\f101",
-    "star": "\\f102"
+    "information": "\\f102",
+    "myStar": "\\f103",
+    "star": "\\f104"
 }
