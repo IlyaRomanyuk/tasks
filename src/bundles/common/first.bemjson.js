@@ -8,6 +8,9 @@ module.exports = [
             ]},
           {elem: 'body', content: [
               {tag: 'p', content: 'Содержимое модального окна'},
+              {tag: 'p', content: 'Содержимое модального окна'},
+              {tag: 'p', content: 'Содержимое модального окна'},
+              {tag: 'p', content: 'Содержимое модального окна'},
             ]},
           {elem: 'footer', content: [
               {tag: 'a', attrs: {'data-toggle': 'modal', 'href': '#ID2'}, content: 'Второе модальное окно'},
