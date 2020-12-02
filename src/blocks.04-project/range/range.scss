@@ -1,0 +1,44 @@
+.range {
+  &__slider {
+    background-color: #FF6347 ;
+    margin-bottom: 15px;
+
+    & .ui-slider-range {
+      background: #FF6347;
+    }
+  }
+
+  &__values {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+
+    &::after {
+      content: '';
+
+      width: 20px;
+      height: 2px;
+      background-color: #ccc;
+
+      position: absolute;
+      top: 50%;
+      left: 50%;
+
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  &__first-1, &__first-2{
+    border: 1px solid #FF6347;
+    border-radius: 3px;
+
+    padding: 1px 0;
+    width: 80px;
+
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+  }
+}

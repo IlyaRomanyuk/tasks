@@ -1,70 +1,42 @@
 @import '~jquery-ui/themes/base/theme.css';
 @import '~jquery-ui/themes/base/slider.css';
+@import '~selectize/dist/css/selectize.css';
 
 .filter {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 
-  &__inner {
-    height: auto;
-    margin: 20px auto 0;
+  height: auto;
+  box-shadow: 0px 0px 15px 1px #000000;
 
-    box-shadow: 0px 0px 15px 1px #000000;
-  }
-
-  &__price {
+  &__section {
     padding: 17px 15px;
     border: 1px solid #ccc;
   }
 
   &__label {
     margin-bottom: 15px;
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
 
-  &__range {
-    background-color: #FF6347 ;
-    margin-bottom: 15px;
-  }
-
-  &__range .ui-slider-range {
-    background: #FF6347;
-  }
-
-  &__values {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    position: relative;
-
-    &::after {
-      content: '';
-
-      width: 20px;
-      height: 2px;
-      background-color: #ccc;
-
-      position: absolute;
-      top: 50%;
-      left: 50%;
-
-      transform: translate(-50%, -50%);
+    &_br {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
   }
 
-  &__first-1, &__first-2{
-    border: 1px solid #FF6347;
-    border-radius: 3px;
+  &__option {
+    display: flex;
+    align-items: center;
 
-    padding: 1px 0;
-    width: 80px;
+    margin-bottom: 7px;
 
-    color: #333;
-    font-size: 14px;
-    text-align: center;
+    &_br {
+      text-transform: uppercase;
+    }
+  }
+
+  &__count {
+    color: #FF6347;
+    margin-left: 7px;
   }
 }
