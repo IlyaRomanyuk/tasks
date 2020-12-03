@@ -13,7 +13,7 @@ module.exports = [
               {tag: 'p', content: 'Содержимое модального окна'},
             ]},
           {elem: 'footer', content: [
-              {tag: 'a', attrs: {'data-toggle': 'modal', 'href': '#ID2'}, content: 'Второе модальное окно'},
+              {tag: 'a', attrs: {'data-toggle': 'modal', 'href': '#ID2', 'id': 'link'}, content: 'Второе модальное окно'},
               {block: 'btn', content: 'Сохранить'},
             ]},
         ]},
