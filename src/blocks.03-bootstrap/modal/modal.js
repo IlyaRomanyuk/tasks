@@ -1,20 +1,16 @@
-// $(document).ready(function() {
-//   $(document).on('shown.bs.modal', function(e) {
-//     let needElements = $('.modal.show');
-//     if (needElements.length > 1) {
-//       needElements[needElements.length - 1].addClass('index');
-//     }
-//   });
-// });
+$(document).ready(function () {
+  let index = 1040;
+  $(document).on('shown.bs.modal', function (e) {
+    let needElements = $('.modal.show');
+    if (needElements.length > 1) {
+      index = index * needElements.length;
+      let backDrops = document.querySelectorAll('.modal-backdrop');
 
-window.onload = function() {
-  document('body').addEventListener('shown.bs.modal', function(e) {
-    // eslint-disable-next-line no-console
-    console.log('fefefe');
-      let elements = document.querySelectorAll('.modal.show');
-      if (elements.length > 1) {
-        // eslint-disable-next-line no-console
-        console.log('fewfew');
-      }
+      backDrops[backDrops.length - 1].style.zIndex = index;
+      needElements[needElements.length - 1].style.zIndex = index + 10;
+    }
   });
-};
+});
+
+
+

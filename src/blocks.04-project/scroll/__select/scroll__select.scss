@@ -1,0 +1,17 @@
+.scroll__select {
+    background: none;
+    border: 1px solid #000;
+
+    padding: 2px 38px 2px 10px;
+
+    appearance: none;
+
+    &:focus {
+        outline: none;
+    }
+
+    option:hover {
+        background-color: red;
+        color: #fff;
+    }
+}   

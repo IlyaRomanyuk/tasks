@@ -1,0 +1,34 @@
+{
+    "mos": [
+        {
+            "name": "Tretiakovskaya"
+        },
+        {
+            "name": "Arbatskaya"
+        },
+        {
+            "name": "Vorobievi gory"
+        }
+    ],
+    "vol": [
+        {
+            "name": "67 - Gvardeiskaya"
+        },
+        {
+            "name": "Komsomoliskaya"
+        }
+    ],
+    "par": [
+        {
+            "name": "Rishelie"
+        },
+        {
+            "name": "Del piero"
+        }
+    ],
+    "mar": [
+        {
+            "name": "Del Marsel"
+        }
+    ]
+}

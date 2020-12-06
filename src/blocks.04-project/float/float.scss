@@ -9,24 +9,47 @@
   background-color: #ccc;
 
   &__item-2, &__item-4 {
-    width: 40px;
+    width: 70px;
+
+    @media screen and (max-width: 576px) {
+      width: 100%;
+    }
+  }
+
+  &__item-2 {
+    margin-bottom: 15px;
   }
 
   &__item-5 {
     float: left;
     border: 1px solid red;
+
+    @media screen and (max-width: 576px) {
+      display: none
+    }
   }
 
-  &__item-2, &__item-4, &__item-3 {
-    float: left;
-  }
+  &__item-3 {
+    margin-left: 80px;
 
-  &__item-4{
-    clear: left;
+    @media screen and (max-width: 576px) {
+      clear: both;
+      margin-left: 0;
+    }
   }
 
   &__item-1, &__item-2, &__item-3, &__item-4, &__header, &__footer{
     border: 2px solid #000;
+  }
+
+  &__sidebar {
+    border: 2px solid orange;
+    float: left;
+
+    @media screen and (max-width: 576px) {
+      width: 100%;
+      margin-bottom: 15px;
+    }
   }
 
   &__content {

@@ -1,0 +1,22 @@
+{
+    "rus": [
+        {
+            "name": "Moscow",
+            "index": "mos"
+        },
+        {
+            "name": "Volgograd",
+            "index": "vol"
+        }
+    ],
+    "fra": [
+        {
+            "name": "Paris",
+            "index": "par"
+        },
+        {
+            "name": "Marsel",
+            "index": "mar"
+        }
+    ]
+}

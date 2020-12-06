@@ -1,5 +1,9 @@
 @import "~bootstrap/scss/modal";
 
-.index {
-  background-color: red;
+.indexMoreForBackdrop {
+  z-index: 1050;
+}
+
+.indexMoreForNodal {
+  z-index: 1060;
 }
